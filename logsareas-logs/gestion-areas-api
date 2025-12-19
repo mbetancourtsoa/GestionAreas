@@ -1,0 +1,104 @@
+23/may/2025 11:13:08,362 - DeclaracionApplication: Starting DeclaracionApplication using Java 1.8.0_442 on LAPTOP-SOA-109 with PID 20204 (C:\Base_2\gestion-area-api\target\classes started by mbetancourt in C:\Base_2\gestion-area-api)
+23/may/2025 11:13:08,365 - DeclaracionApplication: No active profile set, falling back to default profiles: default
+23/may/2025 11:13:08,457 - DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23/may/2025 11:13:08,457 - DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23/may/2025 11:13:09,723 - RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23/may/2025 11:13:09,876 - RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 134 ms. Found 4 JPA repository interfaces.
+23/may/2025 11:13:10,510 - PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b74cf2b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23/may/2025 11:13:10,559 - DocumentBuilderFactoryUtils: http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+23/may/2025 11:13:10,562 - DocumentBuilderFactoryUtils: http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+23/may/2025 11:13:10,648 - AnnotationActionEndpointMapping: Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+23/may/2025 11:13:11,725 - TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+23/may/2025 11:13:12,119 - ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3660 ms
+23/may/2025 11:13:12,756 - LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+23/may/2025 11:13:12,928 - Version: HHH000412: Hibernate ORM core version 5.4.32.Final
+23/may/2025 11:13:13,332 - Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23/may/2025 11:13:13,684 - HikariDataSource: HikariPool-1 - Starting...
+23/may/2025 11:13:14,388 - HikariDataSource: HikariPool-1 - Start completed.
+23/may/2025 11:13:14,464 - Dialect: HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+23/may/2025 11:13:16,060 - JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23/may/2025 11:13:16,080 - LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:13:16,800 - JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23/may/2025 11:13:17,609 - OptionalLiveReloadServer: LiveReload server is running on port 35729
+23/may/2025 11:13:17,685 - TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+23/may/2025 11:13:17,697 - DeclaracionApplication: Started DeclaracionApplication in 10.183 seconds (JVM running for 13.419)
+23/may/2025 11:14:00,608 - DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+23/may/2025 11:14:00,610 - DispatcherServlet: Completed initialization in 2 ms
+23/may/2025 11:22:40,879 - LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:22:40,884 - HikariDataSource: HikariPool-1 - Shutdown initiated...
+23/may/2025 11:22:40,889 - HikariDataSource: HikariPool-1 - Shutdown completed.
+23/may/2025 11:22:41,057 - DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23/may/2025 11:22:41,058 - DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23/may/2025 11:22:41,064 - DeclaracionApplication: Starting DeclaracionApplication using Java 1.8.0_442 on LAPTOP-SOA-109 with PID 20204 (C:\Base_2\gestion-area-api\target\classes started by mbetancourt in C:\Base_2\gestion-area-api)
+23/may/2025 11:22:41,065 - DeclaracionApplication: No active profile set, falling back to default profiles: default
+23/may/2025 11:22:41,238 - RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23/may/2025 11:22:41,238 - RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+23/may/2025 11:22:41,289 - PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b74cf2b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23/may/2025 11:22:41,291 - AnnotationActionEndpointMapping: Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+23/may/2025 11:22:41,371 - TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+23/may/2025 11:22:41,383 - ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 316 ms
+23/may/2025 11:22:41,422 - LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+23/may/2025 11:22:41,426 - HikariDataSource: HikariPool-2 - Starting...
+23/may/2025 11:22:41,488 - HikariDataSource: HikariPool-2 - Start completed.
+23/may/2025 11:22:41,488 - Dialect: HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+23/may/2025 11:22:41,544 - JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23/may/2025 11:22:41,545 - LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:22:41,571 - JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23/may/2025 11:22:41,732 - OptionalLiveReloadServer: LiveReload server is running on port 35729
+23/may/2025 11:22:41,746 - TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+23/may/2025 11:22:41,758 - DeclaracionApplication: Started DeclaracionApplication in 0.719 seconds (JVM running for 577.479)
+23/may/2025 11:22:41,761 - ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+23/may/2025 11:22:45,461 - LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:22:45,463 - HikariDataSource: HikariPool-2 - Shutdown initiated...
+23/may/2025 11:22:45,468 - HikariDataSource: HikariPool-2 - Shutdown completed.
+23/may/2025 11:22:45,708 - DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23/may/2025 11:22:45,711 - DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23/may/2025 11:22:45,726 - DeclaracionApplication: Starting DeclaracionApplication using Java 1.8.0_442 on LAPTOP-SOA-109 with PID 20204 (C:\Base_2\gestion-area-api\target\classes started by mbetancourt in C:\Base_2\gestion-area-api)
+23/may/2025 11:22:45,726 - DeclaracionApplication: No active profile set, falling back to default profiles: default
+23/may/2025 11:22:46,141 - RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23/may/2025 11:22:46,180 - RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 40 ms. Found 4 JPA repository interfaces.
+23/may/2025 11:22:46,266 - PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b74cf2b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23/may/2025 11:22:46,269 - AnnotationActionEndpointMapping: Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+23/may/2025 11:22:46,342 - TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+23/may/2025 11:22:46,362 - ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 631 ms
+23/may/2025 11:22:46,422 - LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+23/may/2025 11:22:46,427 - HikariDataSource: HikariPool-3 - Starting...
+23/may/2025 11:22:46,490 - HikariDataSource: HikariPool-3 - Start completed.
+23/may/2025 11:22:46,490 - Dialect: HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+23/may/2025 11:22:46,626 - JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23/may/2025 11:22:46,626 - LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:22:46,913 - JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23/may/2025 11:22:47,080 - OptionalLiveReloadServer: LiveReload server is running on port 35729
+23/may/2025 11:22:47,095 - TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+23/may/2025 11:22:47,104 - DeclaracionApplication: Started DeclaracionApplication in 1.426 seconds (JVM running for 582.826)
+23/may/2025 11:22:47,106 - ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+23/may/2025 11:24:41,243 - LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:24:41,243 - HikariDataSource: HikariPool-3 - Shutdown initiated...
+23/may/2025 11:24:41,246 - HikariDataSource: HikariPool-3 - Shutdown completed.
+23/may/2025 11:24:41,424 - DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23/may/2025 11:24:41,425 - DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23/may/2025 11:24:41,432 - DeclaracionApplication: Starting DeclaracionApplication using Java 1.8.0_442 on LAPTOP-SOA-109 with PID 20204 (C:\Base_2\gestion-area-api\target\classes started by mbetancourt in C:\Base_2\gestion-area-api)
+23/may/2025 11:24:41,432 - DeclaracionApplication: No active profile set, falling back to default profiles: default
+23/may/2025 11:24:41,601 - RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23/may/2025 11:24:41,626 - RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+23/may/2025 11:24:41,666 - PostProcessorRegistrationDelegate$BeanPostProcessorChecker: Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b74cf2b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23/may/2025 11:24:41,668 - AnnotationActionEndpointMapping: Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+23/may/2025 11:24:41,732 - TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+23/may/2025 11:24:41,743 - ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 309 ms
+23/may/2025 11:24:41,774 - LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+23/may/2025 11:24:41,778 - HikariDataSource: HikariPool-4 - Starting...
+23/may/2025 11:24:41,841 - HikariDataSource: HikariPool-4 - Start completed.
+23/may/2025 11:24:41,841 - Dialect: HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+23/may/2025 11:24:41,922 - JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23/may/2025 11:24:41,923 - LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:24:42,047 - JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23/may/2025 11:24:42,124 - OptionalLiveReloadServer: LiveReload server is running on port 35729
+23/may/2025 11:24:42,133 - TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+23/may/2025 11:24:42,137 - DeclaracionApplication: Started DeclaracionApplication in 0.726 seconds (JVM running for 697.859)
+23/may/2025 11:24:42,139 - ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+23/may/2025 11:25:04,634 - DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+23/may/2025 11:25:04,642 - DispatcherServlet: Completed initialization in 8 ms
+23/may/2025 11:25:59,549 - SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+23/may/2025 11:25:59,867 - LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+23/may/2025 11:25:59,868 - HikariDataSource: HikariPool-4 - Shutdown initiated...
+23/may/2025 11:25:59,871 - HikariDataSource: HikariPool-4 - Shutdown completed.

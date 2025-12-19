@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+    <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd/MMM/yyyy HH:mm:ss,SSS} - %c{1}: %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="RollingFile" class="org.apache.log4j.RollingFileAppender">
+<!--        <param name="File" value="C:/logs/areas-logs/gestion-areas-api.log"/>-->
+        <param name="File" value="E:/logs/areas-logs/gestion-areas-api.log"/>
+        <param name="MaxFileSize" value="20MB"/>
+        <param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{dd/MMM/yyyy HH:mm:ss,SSS} - %c{1}: %m%n"/>
+        </layout>
+    </appender>
+
+    <logger name="com.filenet">
+        <level value="error"/>
+        <appender-ref ref="Console"/>
+        <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <root>
+        <level value="info"/>
+        <appender-ref ref="Console"/>
+        <appender-ref ref="RollingFile"/>
+    </root>
+</log4j:configuration>
